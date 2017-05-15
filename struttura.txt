@@ -1,0 +1,37 @@
+Applicazione Pizza:
+	Funzionalità:
+		-Ordinare la pizza da parte delle classi di un istituto;
+		-Aggiungere, modificare ed eliminare i prodotti venduti dal relativo venditore;
+		-Possibilità per un utente di modificare le informazioni del suo profilo;
+		-Dare la possibilità agli studenti di dare un voto alle pizze;
+
+	Componenti:
+		-Root:
+			-Login;
+			-Header;
+			-Barra Laterale;
+			-Ordinazione:
+				-Lista Venditori:
+					-Venditore:
+						-Lista Pizze:
+							-Pizza;
+			-Carrello;
+
+	Model:
+		-Pizza {
+			nome,
+			prezzo
+		};
+		-Venditore {
+			nome,
+			cognome,
+			provenienza
+		};
+		-Classe {
+			id,
+			rappresentante
+		};
+		-Persona {
+			nome,
+			cognome
+		}
